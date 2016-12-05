@@ -6,3 +6,85 @@
   top:25%;
   width: 100%;
 }
+.skill-data {
+	position:relative;
+	display:block;
+	margin-bottom:20px;
+	width:100%;
+	background:#eee;
+	height:40px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-webkit-transition:0.7s linear;
+	-moz-transition:0.7s linear;
+	-ms-transition:0.7s linear;
+	-o-transition:0.7s linear;
+	transition:0.7s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+.skill-name{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 125px;
+  color:#ffffff;
+  font-size: 25px;
+  background:#6adcfa;
+  height: 100%;
+  text-align: center;
+  border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+.skill-name span{
+  display: block;
+  background:rgba(0, 0, 0, 0.1);
+  padding: 0,15px;
+  height: 100%;
+  line-height: 30px;
+  border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+.skill-bar{
+  display: block;
+  height: 100%;
+  width: 0;
+  border-radius:10px;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+}
+.skill-info-percent{
+  position: absolute;
+  font-size: 15px;
+  right: 10px;
+  color: #fff;
+  color:rgba(0, 0, 0, 0.4);
+  height: 100%;
+  line-height: 15px;
+  top: 25%;
+}
+.education-list{
+  margin-bottom: 500px;
+}
+.education-entry{
+  position:relative;
+  top:0;
+  display: table,
+}
+.year{
+  position: relative;
+  top: 0;
+  left: 0;
+  float: left;
+  width: 140px;
+}
+.description-education{
+  position: absolute;
+  left:180px;
+}
