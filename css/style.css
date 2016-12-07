@@ -69,6 +69,10 @@
   line-height: 15px;
   top: 25%;
 }
+.container-skills{
+  margin-bottom: 30px;
+}
+
 
 .timeline-centered:after{
   position: relative;
