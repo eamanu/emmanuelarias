@@ -283,9 +283,29 @@
     filter: alpha(opacity=60);
 }
 
+.fa-ul{
+  margin-top: 35px;
+  display: block;
+}
+
+.fa-ul > li{
+  display: table;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
 .research_background_ul > li{
   display: table;
   margin-bottom: 15px;
   text-align: justify;
+
+}
+
+.experience_ul {
+  display: table;
+}
+.experience_ul > li{
+  text-align: justify;
+  margin-bottom: 25px;
 
 }
