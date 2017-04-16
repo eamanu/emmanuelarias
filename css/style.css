@@ -1,11 +1,70 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.container-principal{
+  background-color: #fff;
+  box-shadow: 0px 25px 25px 0px;
+}
+
+.container-fluid-principal{
+  background-color: #e2e7e3;
+}
+
 .principal-img{
   position: relative;
+  max-width: 100%;
+  height: 400px;
+  background: url('../images/lake_bariloche.jpg') no-repeat center center fixed;
+  background-color: rgba(172, 62, 62, 0.55);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
+
+.principal-img-sup{
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  top:50%;
+  background-color: black;
+}
+
+.img-thumbnail{
+  box-shadow: 0px 5px 5px 5px;
+}
+
 .principal-name{
-  position:absolute;
-  top:25%;
+  position:relative;
+  color: white;
+  text-shadow: 2px 2px #000  ;
   width: 100%;
 }
+
 .skill-data {
 	position:relative;
 	display:block;
@@ -34,7 +93,7 @@
   width: 125px;
   color:#ffffff;
   font-size: 20px;
-  background:#6adcfa;
+  background:rgba(#81c95b, 0.40);
   height: 100%;
   text-align: center;
   border-radius:10px;
@@ -92,7 +151,7 @@
     display: block;
     width: 4px;
     background: #f5f5f6;
-    left: 30%;
+    left: 27%;
     top: 20px;
     bottom: 20px;
     margin-left: -4px;
@@ -101,7 +160,7 @@
 
 .timeline-centered .timeline-entry {
     position: relative;
-    width: 70%;
+    width: 72%;
     float: right;
     margin-bottom: 30px;
     clear: both;
@@ -179,8 +238,8 @@
     background: #fff;
     color: #737881;
     display: block;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     -webkit-background-clip: padding-box;
     -moz-background-clip: padding;
     background-clip: padding-box;
@@ -196,33 +255,8 @@
     float: left;
 }
 
-.timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.bg-primary {
-    background-color: #303641;
-    color: #fff;
-}
-
-.timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.bg-secondary {
-    background-color: #ee4749;
-    color: #fff;
-}
-
-.timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.bg-success {
-    background-color: #00a651;
-    color: #fff;
-}
-
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.bg-info {
-    background-color: #21a9e1;
-    color: #fff;
-}
-
-.timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.bg-warning {
-    background-color: #fad839;
-    color: #fff;
-}
-
-.timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.bg-danger {
-    background-color: #cc2424;
+    background-color: #57a451;
     color: #fff;
 }
 
@@ -308,4 +342,74 @@
   text-align: justify;
   margin-bottom: 25px;
 
+}
+.icon_contact_me{
+  position: relative;
+  text-align: center;
+  margin:  10px 10px 10px 0px;
+
+}
+.h4_contact_me{
+  margin-top: 0px;
+
+}
+
+.row_contact_me{
+  margin-bottom: 15px;
+}
+.rating-static {
+  width: 60px;
+  height: 16px;
+  display: block;
+  background: url('http://www.itsalif.info/blogfiles/rating/star-rating.png') 0 0 no-repeat;
+}
+
+.rating-50 { background-position: 0 0; }
+.rating-40 { background-position: -12px 0; }
+.rating-30 { background-position: -24px 0; }
+.rating-20 { background-position: -36px 0; }
+.rating-10 { background-position: -48px 0; }
+.rating-0 { background-position: -60px 0; }
+
+.rating-5  { background-position: -48px -16px; }
+.rating-15 { background-position: -36px -16px; }
+.rating-25 { background-position: -24px -16px; }
+.rating-35 { background-position: -12px -16px; }
+.rating-45 { background-position: 0 -16px; }
+
+
+.lang-container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+  margin-bottom: 60px;
+
+}
+
+.lang-name{
+  position: absolute;;
+  text-align: left;
+  top: 0%;
+
+}
+
+.lang-star{
+  position: absolute;
+  display: block;
+  right: 10px;
+}
+
+.lang-row{
+  border-bottom: 1px solid #ababab;
+}
+
+.hobby{
+  display: inline-block;
+  background-color: #bdbdbd;
+  margin: 5px;
+  padding: 10px;
+  border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
 }
