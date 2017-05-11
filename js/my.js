@@ -6,12 +6,12 @@ $(document).ready(function() {
 
     $(function(){
           $(".hello").typed({
-            strings:["Ha!","Hi! My man", "Hi! I am Emmanuel", "And tis", "And this is my resume"],
+            strings:["Hi! I am Emmanuel Arias"],
             typeSpeed:100,
             startDelay:100,
             shuffle:false,
             backDelay: 500,
-            loop: true,
+            loop: false,
             showCursor: false,
           });
         });
